@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(135, 206, 235, 0.3); /* Light blue overlay to complement sky */
+    background-image:url(/images/empty-soccer-stadium-with-dreamy-fantasy-view-sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header .Logo{
+    width: 120px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.gradient-text{
+    background: linear-gradient(270deg, #7d58dc, #00bfff); /* Lime green to deep sky blue */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px; /* Reduced font size for less dominance */
+    text-shadow: 1px 1px 2px rgba(137, 38, 161, 0.5); /* Softer shadow for contrast */
+}
+
+.Lexend{
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.button-row{
+    display:flex;
+    justify-content: space-between;
+    width: 320px
+}
+
+.club{
+    background: linear-gradient(90deg, #228b22, #32cd32); /* Forest green to lime green */
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.4); /* soft glow */
+    transition: 0.25s;
+}
+
+.club:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.learn{
+    background: linear-gradient(90deg, #4169e1, #00bfff); /* Royal blue to deep sky blue */
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(65, 105, 225, 0.4); /* soft glow */
+    transition: 0.25s;
+}
+
+.learn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.fa-instagram{
+    position: fixed;
+    transform: scale(2);
+    bottom: 20px;
+    right: 20px;
+}

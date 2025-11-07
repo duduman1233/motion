@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(17, 17, 17); /* Light blue overlay to complement sky */
+}
+
+.gradient-text{
+    background: linear-gradient(270deg, #dd4dce, #00bfff); /* Lime green to deep sky blue */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px; /* Kept larger font size */
+    margin-bottom: 20px;
+}
+
+.asal-usul{
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* Changed to normal for better readability */
+  font-style: normal;
+  color:#ffffff;
+  font-size: 18px; /* Kept larger font size */
+  line-height: 1.8; /* Adjusted line height */
+  padding: 20px;
+  max-width: 50%;
+}
+
+.Logo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.back{
+    width: 70%;
+    display: flex;
+    position:fixed;
+    top:10px;
+    background: linear-gradient(90deg, #7d58dc, #00bfff);
+    border-radius:50px;
+    padding:10px;
+}
+
+.Logo2{
+    width: 70px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.atas{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 87%;
+   margin: 0;
+   font-family: "Lexend", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: normal; /* Changed to normal for better readability */
+   font-style: normal;
+   color:#000000;
+}
