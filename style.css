@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: rgba(135, 206, 235, 0.3); /* Light blue overlay to complement sky */
-    background-image:url("/images/empty-soccer-stadium-with-dreamy-fantasy-view-sky.jpg");
+    background-image:url("images/empty-soccer-stadium-with-dreamy-fantasy-view-sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -95,3 +95,4 @@ body {
     right: 20px;
 
 }
+
